@@ -43,3 +43,4 @@ AstroLog is an astronomy observation logging and tracking platform featuring a N
    ```bash
    npm run dev
    ```
+

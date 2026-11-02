@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Auth from "./Auth";
 
-const API_URL = "http://localhost:5000/api/observations";
+const API_URL = `${import.meta.env.VITE_API_URL}/observations`;
 
 function App() {
     const [observations, setObservations] = useState([]);
